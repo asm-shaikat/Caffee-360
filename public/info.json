@@ -1,0 +1,197 @@
+[
+    {
+        "blog_image": "https://example.com/image1.jpg",
+        "name": {
+            "first_name": "John",
+            "last_name": "Doe"
+        },
+        "avatar_img": "https://example.com/avatar1.jpg",
+        "blog_title": "Understanding JavaScript Closures",
+        "date": "2024-08-26",
+        "description": "A deep dive into JavaScript closures and how they work.",
+        "tags": ["JavaScript", "Programming", "Web Development"],
+        "time": 8
+    },
+    {
+        "blog_image": "https://example.com/image2.jpg",
+        "name": {
+            "first_name": "Jane",
+            "last_name": "Smith"
+        },
+        "avatar_img": "https://example.com/avatar2.jpg",
+        "blog_title": "Introduction to React Hooks",
+        "date": "2024-08-25",
+        "description": "Learn about React Hooks and how to use them in functional components.",
+        "tags": ["React", "Web Development", "Frontend"],
+        "time": 10
+    },
+    {
+        "blog_image": "https://example.com/image3.jpg",
+        "name": {
+            "first_name": "Alice",
+            "last_name": "Johnson"
+        },
+        "avatar_img": "https://example.com/avatar3.jpg",
+        "blog_title": "CSS Grid vs. Flexbox: When to Use Which",
+        "date": "2024-08-24",
+        "description": "A comparison of CSS Grid and Flexbox layout models.",
+        "tags": ["CSS", "Web Design", "Frontend"],
+        "time": 7
+    },
+    {
+        "blog_image": "https://example.com/image4.jpg",
+        "name": {
+            "first_name": "Robert",
+            "last_name": "Brown"
+        },
+        "avatar_img": "https://example.com/avatar4.jpg",
+        "blog_title": "Getting Started with TypeScript",
+        "date": "2024-08-23",
+        "description": "An introduction to TypeScript for JavaScript developers.",
+        "tags": ["TypeScript", "Programming", "Web Development"],
+        "time": 9
+    },
+    {
+        "blog_image": "https://example.com/image5.jpg",
+        "name": {
+            "first_name": "Emily",
+            "last_name": "Davis"
+        },
+        "avatar_img": "https://example.com/avatar5.jpg",
+        "blog_title": "Best Practices for RESTful APIs",
+        "date": "2024-08-22",
+        "description": "Tips and tricks for building scalable RESTful APIs.",
+        "tags": ["API", "Backend", "Web Development"],
+        "time": 12
+    },
+    {
+        "blog_image": "https://example.com/image6.jpg",
+        "name": {
+            "first_name": "Michael",
+            "last_name": "Wilson"
+        },
+        "avatar_img": "https://example.com/avatar6.jpg",
+        "blog_title": "Exploring the New Features in ES2024",
+        "date": "2024-08-21",
+        "description": "A look at the latest features introduced in ES2024.",
+        "tags": ["JavaScript", "Programming", "Web Development"],
+        "time": 5
+    },
+    {
+        "blog_image": "https://example.com/image7.jpg",
+        "name": {
+            "first_name": "Olivia",
+            "last_name": "Miller"
+        },
+        "avatar_img": "https://example.com/avatar7.jpg",
+        "blog_title": "How to Optimize Web Performance",
+        "date": "2024-08-20",
+        "description": "Strategies for improving the performance of your web applications.",
+        "tags": ["Web Performance", "Optimization", "Web Development"],
+        "time": 11
+    },
+    {
+        "blog_image": "https://example.com/image8.jpg",
+        "name": {
+            "first_name": "William",
+            "last_name": "Taylor"
+        },
+        "avatar_img": "https://example.com/avatar8.jpg",
+        "blog_title": "A Guide to Responsive Web Design",
+        "date": "2024-08-19",
+        "description": "Learn how to create responsive web designs that work on all devices.",
+        "tags": ["Web Design", "Responsive Design", "CSS"],
+        "time": 8
+    },
+    {
+        "blog_image": "https://example.com/image9.jpg",
+        "name": {
+            "first_name": "Sophia",
+            "last_name": "Anderson"
+        },
+        "avatar_img": "https://example.com/avatar9.jpg",
+        "blog_title": "The Power of Asynchronous JavaScript",
+        "date": "2024-08-18",
+        "description": "An overview of asynchronous programming in JavaScript.",
+        "tags": ["JavaScript", "Programming", "Async"],
+        "time": 9
+    },
+    {
+        "blog_image": "https://example.com/image10.jpg",
+        "name": {
+            "first_name": "James",
+            "last_name": "Thomas"
+        },
+        "avatar_img": "https://example.com/avatar10.jpg",
+        "blog_title": "Introduction to Node.js",
+        "date": "2024-08-17",
+        "description": "Get started with Node.js, a powerful JavaScript runtime.",
+        "tags": ["Node.js", "Backend", "JavaScript"],
+        "time": 7
+    },
+    {
+        "blog_image": "https://example.com/image11.jpg",
+        "name": {
+            "first_name": "Isabella",
+            "last_name": "Moore"
+        },
+        "avatar_img": "https://example.com/avatar11.jpg",
+        "blog_title": "Debugging in React: A Comprehensive Guide",
+        "date": "2024-08-16",
+        "description": "Learn effective debugging techniques in React.",
+        "tags": ["React", "Debugging", "Frontend"],
+        "time": 10
+    },
+    {
+        "blog_image": "https://example.com/image12.jpg",
+        "name": {
+            "first_name": "Benjamin",
+            "last_name": "Martin"
+        },
+        "avatar_img": "https://example.com/avatar12.jpg",
+        "blog_title": "Mastering Git for Version Control",
+        "date": "2024-08-15",
+        "description": "A guide to using Git for efficient version control.",
+        "tags": ["Git", "Version Control", "Development"],
+        "time": 6
+    },
+    {
+        "blog_image": "https://example.com/image13.jpg",
+        "name": {
+            "first_name": "Charlotte",
+            "last_name": "Garcia"
+        },
+        "avatar_img": "https://example.com/avatar13.jpg",
+        "blog_title": "How to Use Redux in React Applications",
+        "date": "2024-08-14",
+        "description": "A step-by-step guide to integrating Redux in React.",
+        "tags": ["Redux", "React", "Frontend"],
+        "time": 9
+    },
+    {
+        "blog_image": "https://example.com/image14.jpg",
+        "name": {
+            "first_name": "Henry",
+            "last_name": "Martinez"
+        },
+        "avatar_img": "https://example.com/avatar14.jpg",
+        "blog_title": "Building Accessible Web Applications",
+        "date": "2024-08-13",
+        "description": "Learn how to make your web applications accessible to everyone.",
+        "tags": ["Accessibility", "Web Development", "Frontend"],
+        "time": 8
+    },
+    {
+        "blog_image": "https://example.com/image15.jpg",
+        "name": {
+            "first_name": "Amelia",
+            "last_name": "Clark"
+        },
+        "avatar_img": "https://example.com/avatar15.jpg",
+        "blog_title": "Exploring Server-Side Rendering with Next.js",
+        "date": "2024-08-12",
+        "description": "An introduction to server-side rendering with Next.js.",
+        "tags": ["Next.js", "Server-Side Rendering", "JavaScript"],
+        "time": 11
+    }
+]
