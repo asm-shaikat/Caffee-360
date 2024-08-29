@@ -2,11 +2,11 @@ import React from "react";
 import { BsBookmarkPlus } from "react-icons/bs";
 import PropTypes from "prop-types";
 
-const Blog = ({ blog }) => {
+const Blog = ({ blog,handleBookmark,handleMarkasRead}) => {
   if (!blog) {
     return null; // or a fallback UI
   }
-  const { blog_image, avatar_img, blog_title, date, description, name, tags, time } = blog;
+  const { id,blog_image, avatar_img, blog_title, date, description, name, tags, time } = blog;
 
   return (
     <div>
@@ -31,7 +31,7 @@ const Blog = ({ blog }) => {
               <p className="text-sm text-gray-500">{`${time} min read`}</p>
             </div>
             <div>
-              <BsBookmarkPlus style={{ fontSize: "2rem" }} />
+              <BsBookmarkPlus style={{ fontSize: "2rem" }} onClick={() => handleBookmark(blog)} />
             </div>
           </div>
         </div>
@@ -45,9 +45,10 @@ const Blog = ({ blog }) => {
           <span key={index} className="text-blue-500">{`#${tag}`}</span>
         ))}
       </div>
-      <a href="#" className="inline-block mt-4 text-blue-600 hover:underline">
-        Mark as read
-      </a>
+      <p className="inline-block mt-4 text-blue-600 hover:underline"
+       onClick={()=>handleMarkasRead(id,time)}>
+      Mark as read
+    </p>
     </div>
   );
 };
@@ -66,6 +67,7 @@ Blog.propTypes = {
     tags: PropTypes.arrayOf(PropTypes.string).isRequired,
     time: PropTypes.number.isRequired,
   }).isRequired,
+  handleBookmark: PropTypes.func.isRequired,
 };
 
 export default Blog;
